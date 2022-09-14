@@ -135,16 +135,16 @@ network:
         secret_path: "secret"
 
       # Git Repo details which will be used by GitOps/Flux.
-      # Do not check-in git_access_token
+      # Do not check-in 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
       gitops:
         git_protocol: "https" # Option for git over https or ssh
         git_url: "https://github.com/499909744/bevel.git "  # Gitops https or ssh url for flux value files
         branch: "local"                                          # Git branch where release is being made
         release_dir: "platforms/hyperledger-fabric/releases/dev" # Relative Path in the Git repo for flux sync per environment.
         chart_source: "platforms/hyperledger-fabric/charts"      # Relative Path where the Helm charts are stored in Git repo
-        git_repo: "github.com/<username>/bevel.git"              # Gitops git repository URL for git push  (without https://)
-        username: "github_username"                              # Git user who has rights to check-in in all branches
-        password: "git_access_token"                             # Git Server user password/token (Optional for ssh; Required for https)
+        git_repo: "github.com/499909744/bevel.git"              # Gitops git repository URL for git push  (without https://)
+        username: "499909744@qq.com"                              # Git user who has rights to check-in in all branches
+        password: "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"                             # Git Server user password/token (Optional for ssh; Required for https)
         email: "git@email.com"                                   # Email to use in git config
         private_key: "/home/bevel/build/gitops"                  # Path to private key file which has write-access to the git repo (Optional for https; Required for ssh)
 
@@ -183,7 +183,7 @@ network:
         url: ca.manufacturer-net:7054
         certificate: /home/bevel/build/manufacturer/server.crt
 
-      cloud_provider: aws   # Options: aws, azure, gcp
+      cloud_provider: minikube   # Options: aws, azure, gcp
       aws:
         access_key: "aws_access_key"        # AWS Access key, only used when cloud_provider=aws
         secret_key: "aws_secret_key"        # AWS Secret key, only used when cloud_provider=aws
@@ -191,7 +191,7 @@ network:
       # Kubernetes cluster deployment variables. The config file path and name has to be provided in case
       # the cluster has already been created.
       k8s:
-        region: "cluster_region"
+        #region: "cluster_region"
         context: "kubernetes-admin@kubernetes"
         config_file: "/home/bevel/build/config"
 
@@ -203,16 +203,16 @@ network:
         secret_path: "secret"
 
       # Git Repo details which will be used by GitOps/Flux.
-      # Do not check-in git_access_token
+      # Do not check-in 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
       gitops:
         git_protocol: "https" # Option for git over https or ssh
         git_url: "https://github.com/499909744/bevel.git "  # Gitops https or ssh url for flux value files
         branch: "local"                                          # Git branch where release is being made
         release_dir: "platforms/hyperledger-fabric/releases/dev" # Relative Path in the Git repo for flux sync per environment.
         chart_source: "platforms/hyperledger-fabric/charts"      # Relative Path where the Helm charts are stored in Git repo
-        git_repo: "github.com/<username>/bevel.git"              # Gitops git repository URL for git push  (without https://)
-        username: "github_username"                              # Git user who has rights to check-in in all branches
-        password: "git_access_token"                             # Git Server user password/token (Optional for ssh; Required for https)
+        git_repo: "github.com/499909744/bevel.git"              # Gitops git repository URL for git push  (without https://)
+        username: "499909744@qq.com"                              # Git user who has rights to check-in in all branches
+        password: "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"                             # Git Server user password/token (Optional for ssh; Required for https)
         email: "git@email.com"                                   # Email to use in git config
         private_key: "/home/bevel/build/gitops"                  # Path to private key file which has write-access to the git repo (Optional for https; Required for ssh)
 
@@ -258,9 +258,9 @@ network:
               maindirectory: "cmd"   # The main directory where chaincode is needed to be placed
               lang: "golang"  # The language in which the chaincode is written ( golang/java/node )
               repository:
-                username: "github_username"          # Git user with read rights to repo
-                password: "git_access_token"         # Git token of above user
-                url: "github.com/<username>/bevel.git"
+                username: "499909744@qq.com"          # Git user with read rights to repo
+                password: "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"         # Git token of above user
+                url: "github.com/499909744/bevel.git"
                 branch: develop
                 path: "examples/supplychain-app/fabric/chaincode_rest_server/chaincode/"  #The path to the chaincode in the repo
               arguments: '\"init\",\"\"'                                                  #Arguments to be passed along with the chaincode parameters
@@ -299,17 +299,17 @@ network:
         secret_path: "secret"
 
       # Git Repo details which will be used by GitOps/Flux.
-      # Do not check-in git_access_token
+      # Do not check-in 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
       gitops:
         git_protocol: "https" # Option for git over https or ssh
         git_url: "https://github.com/499909744/bevel.git "  # Gitops https or ssh url for flux value files
-        branch: "main"                                          # Git branch where release is being made
+        branch: "fabric"                                          # Git branch where release is being made
         release_dir: "platforms/hyperledger-fabric/releases/dev" # Relative Path in the Git repo for flux sync per environment.
         chart_source: "platforms/hyperledger-fabric/charts"      # Relative Path where the Helm charts are stored in Git repo
-        git_repo: "github.com/<username>/bevel.git"              # Gitops git repository URL for git push  (without https://)
-        username: "github_username"                              # Git user who has rights to check-in in all branches
-        password: "git_access_token"                             # Git Server user password/token (Optional for ssh; Required for https)
-        email: "git@email.com"                                   # Email to use in git config
+        git_repo: "github.com/499909744/bevel.git"              # Gitops git repository URL for git push  (without https://)
+        username: "499909744@qq.com"                              # Git user who has rights to check-in in all branches
+        password: "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"                             # Git Server user password/token (Optional for ssh; Required for https)
+        email: "laohu4521@hotmail.com"                                   # Email to use in git config
         private_key: "/home/bevel/build/gitops"                  # Path to private key file which has write-access to the git repo (Optional for https; Required for ssh)
 
       # Generating User Certificates with custom attributes using Fabric CA in BAF for Peer Organizations
@@ -352,9 +352,9 @@ network:
               maindirectory: "cmd"   # The main directory where chaincode is needed to be placed
               lang: "golang"  # The language in which the chaincode is written ( golang/java/node )
               repository:
-                username: "github_username"          # Git user with read rights to repo
-                password: "git_access_token"         # Git token of above user
-                url: "github.com/<username>/bevel.git"
+                username: "499909744@qq.com"          # Git user with read rights to repo
+                password: "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"         # Git token of above user
+                url: "github.com/499909744/bevel.git"
                 branch: develop
                 path: "examples/supplychain-app/fabric/chaincode_rest_server/chaincode/"  #The path to the chaincode in the repo
               arguments: '\"init\",\"\"'                                                  #Arguments to be passed along with the chaincode parameters
