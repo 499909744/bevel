@@ -115,7 +115,7 @@ network:
         url: ca.supplychain-net:7054
         certificate: /home/bevel/build/supplychain/server.crt
 
-      cloud_provider: aws   # Options: aws, azure, gcp
+      cloud_provider: minikube   # Options: aws, azure, gcp
       aws:
         access_key: "aws_access_key"        # AWS Access key, only used when cloud_provider=aws
         secret_key: "aws_secret_key"        # AWS Secret key, only used when cloud_provider=aws
@@ -279,7 +279,7 @@ network:
         url: ca.carrier-net:7054
         certificate: /home/bevel/build/carrier/server.crt
 
-      cloud_provider: aws   # Options: aws, azure, gcp
+      cloud_provider: minikube   # Options: aws, azure, gcp
       aws:
         access_key: "aws_access_key"        # AWS Access key, only used when cloud_provider=aws
         secret_key: "aws_secret_key"        # AWS Secret key, only used when cloud_provider=aws
