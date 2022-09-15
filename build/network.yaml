@@ -142,7 +142,7 @@ network:
         branch: "fabric"                                          # Git branch where release is being made
         release_dir: "platforms/hyperledger-fabric/releases/dev" # Relative Path in the Git repo for flux sync per environment.
         chart_source: "platforms/hyperledger-fabric/charts"      # Relative Path where the Helm charts are stored in Git repo
-        git_repo: "git@github.com:499909744/bevel.git"              # Gitops git repository URL for git push  (without https://)
+        git_repo: "git@github.com/499909744/bevel.git"              # Gitops git repository URL for git push  (without https://)
         username: "499909744"                              # Git user who has rights to check-in in all branches
         password: "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"                             # Git Server user password/token (Optional for ssh; Required for https)
         email: "499909744@qq.com"                                   # Email to use in git config
@@ -210,7 +210,7 @@ network:
         branch: "fabric"                                          # Git branch where release is being made
         release_dir: "platforms/hyperledger-fabric/releases/dev" # Relative Path in the Git repo for flux sync per environment.
         chart_source: "platforms/hyperledger-fabric/charts"      # Relative Path where the Helm charts are stored in Git repo
-        git_repo: "git@github.com:499909744/bevel.git"              # Gitops git repository URL for git push  (without https://)
+        git_repo: "git@github.com/499909744/bevel.git"              # Gitops git repository URL for git push  (without https://)
         username: "499909744"                              # Git user who has rights to check-in in all branches
         password: "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"                             # Git Server user password/token (Optional for ssh; Required for https)
         email: "499909744@qq.com"                                   # Email to use in git config
@@ -306,7 +306,7 @@ network:
         branch: "fabric"                                          # Git branch where release is being made
         release_dir: "platforms/hyperledger-fabric/releases/dev" # Relative Path in the Git repo for flux sync per environment.
         chart_source: "platforms/hyperledger-fabric/charts"      # Relative Path where the Helm charts are stored in Git repo
-        git_repo: "git@github.com:499909744/bevel.git"              # Gitops git repository URL for git push  (without https://)
+        git_repo: "git@github.com/499909744/bevel.git"              # Gitops git repository URL for git push  (without https://)
         username: "499909744"                              # Git user who has rights to check-in in all branches
         password: "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"                             # Git Server user password/token (Optional for ssh; Required for https)
         email: "499909744@qq.com"                                   # Email to use in git config
