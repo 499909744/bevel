@@ -5,7 +5,7 @@
 ##############################################################################################
 
 ---
-# ###yaml-language-server: $schema=../../../../platforms/network-schema.json
+# yaml-language-server: $schema=../../../../platforms/network-schema.json
 # This is a sample configuration file for testing Fabric deployment which has 3 nodes.
 network:
   # Network level configuration specifies the attributes required for each organization
@@ -130,8 +130,8 @@ network:
       # Hashicorp Vault server address and root-token. Vault should be unsealed.
       # Do not check-in root_token
       vault:
-        url: "https://vault.yljt.cn"
-        root_token: "hvs.10hOYkPINSXb4TYmXetNuJPO"
+        url: "http://192.168.0.1:8200"
+        root_token: "hvs.2UXzRJm6KdzqeUoUeSU8VUFt"
         secret_path: "secret"
 
       # Git Repo details which will be used by GitOps/Flux.
@@ -198,8 +198,8 @@ network:
       # Hashicorp Vault server address and root-token. Vault should be unsealed.
       # Do not check-in root_token
       vault:
-        url: "https://vault.yljt.cn"
-        root_token: "hvs.10hOYkPINSXb4TYmXetNuJPO"
+        url: "http://192.168.0.1:8200"
+        root_token: "hvs.2UXzRJm6KdzqeUoUeSU8VUFt"
         secret_path: "secret"
 
       # Git Repo details which will be used by GitOps/Flux.
@@ -294,8 +294,8 @@ network:
       # Hashicorp Vault server address and root-token. Vault should be unsealed.
       # Do not check-in root_token
       vault:
-        url: "https://vault.yljt.cn"
-        root_token: "hvs.10hOYkPINSXb4TYmXetNuJPO"
+        url: "http://192.168.0.1:8200"
+        root_token: "hvs.2UXzRJm6KdzqeUoUeSU8VUFt"
         secret_path: "secret"
 
       # Git Repo details which will be used by GitOps/Flux.
