@@ -5,7 +5,7 @@
 ##############################################################################################
 
 ---
-# yaml-language-server: $schema=../../../../platforms/network-schema.json
+#3 yaml-language-server: $schema=../../../../platforms/network-schema.json
 # This is a sample configuration file for testing Fabric deployment which has 3 nodes.
 network:
   # Network level configuration specifies the attributes required for each organization
