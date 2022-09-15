@@ -145,7 +145,7 @@ network:
         git_repo: "github.com/499909744/bevel.git"              # Gitops git repository URL for git push  (without https://)
         username: "499909744@qq.com"                              # Git user who has rights to check-in in all branches
         password: "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"                             # Git Server user password/token (Optional for ssh; Required for https)
-        email: "git@email.com"                                   # Email to use in git config
+        email: "wangxiaohu@yljt.cn"                                   # Email to use in git config
         private_key: "/home/bevel/build/gitops"                  # Path to private key file which has write-access to the git repo (Optional for https; Required for ssh)
 
       # Services maps to the pods that will be deployed on the k8s cluster
@@ -213,7 +213,7 @@ network:
         git_repo: "github.com/499909744/bevel.git"              # Gitops git repository URL for git push  (without https://)
         username: "499909744@qq.com"                              # Git user who has rights to check-in in all branches
         password: "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"                             # Git Server user password/token (Optional for ssh; Required for https)
-        email: "git@email.com"                                   # Email to use in git config
+        email: "wangxiaohu@yljt.cn"                                   # Email to use in git config
         private_key: "/home/bevel/build/gitops"                  # Path to private key file which has write-access to the git repo (Optional for https; Required for ssh)
 
       # Generating User Certificates with custom attributes using Fabric CA in BAF for Peer Organizations
